@@ -108,7 +108,7 @@ system.debug('rem ' + rem);*/
                         words = words.Substring(0,words.length()-1); //heq shkronjen e fundit kur kane 1 ose 8 pas
                         words += NumberToWords(rem); }
                     
-                    if(rem==3){
+                  else  if(rem==3){
                         //  System.debug('jena qetu');
                         //      words += NumberToWords(rem);
                         words += 'tré'; //e ben tré
